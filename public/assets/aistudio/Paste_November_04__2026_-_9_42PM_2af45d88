@@ -1,0 +1,1275 @@
+# CYBERNEXUS — ULTIMATE COMPLETE MASTER BUILD PROMPT
+
+## PROJECT: CYBERNEXUS
+
+**Tagline: Explore. Learn. Defend. Master Cybersecurity.**
+
+## 1\. YOUR ROLE
+
+Act as a senior full-stack software architect, cybersecurity engineer, professional UI/UX designer, educational curriculum developer, frontend engineer, backend engineer, and application security specialist.
+
+Your mission is to build CyberNexus, a complete, professional, visually impressive cybersecurity education and practical training platform from scratch.
+
+Build a production-quality platform inspired by the learning experience of TryHackMe and Hack The Box, but with its own identity, design, educational content, practical exercises, missions, and cybersecurity tools.
+
+This is a completely new project.
+
+Do not depend on any previous project, codebase, database, or architecture.
+
+The final result must look and function like a professional international cybersecurity platform, not a basic college project.
+
+Take the time required to build it properly. Do not sacrifice quality just to finish quickly.
+
+---
+
+# 2\. PROJECT VISION
+
+CyberNexus must provide a complete cybersecurity learning and practice ecosystem.
+
+The platform should allow a complete beginner to start from zero and gradually become capable of understanding advanced cybersecurity concepts.
+
+Core objectives:
+
+- Complete beginner-to-advanced cybersecurity education.
+- Detailed textbook-quality lessons.
+- Interactive diagrams and visual explanations.
+- Practical cybersecurity labs.
+- CTF challenges.
+- Red Team and Blue Team learning.
+- Realistic cybersecurity missions.
+- SIEM and IDS learning environments.
+- Network and packet analysis.
+- Digital forensics.
+- Threat intelligence.
+- Progress tracking and achievements.
+- Professional responsive website.
+- Safe and authorized cybersecurity practice.
+
+The platform must be free to use.
+
+Do not use paid APIs or paid services as mandatory dependencies.
+
+---
+
+# 3\. TECHNOLOGY STACK AND ARCHITECTURE
+
+Use a modern, maintainable, scalable technology stack.
+
+Preferred stack:
+
+- Frontend: React + Vite.
+- Styling: Tailwind CSS.
+- Backend: Node.js + Express.
+- Database: MongoDB when persistent backend storage is needed.
+- Icons: Lucide React.
+- Charts: Lightweight charting library.
+- Diagrams: Mermaid or appropriate interactive visualization tools.
+- Practical environments: Docker-based isolated containers where supported.
+- Version control: Git and GitHub.
+
+You may select better free alternatives if there is a strong technical reason.
+
+Architecture requirements:
+
+- Modular project structure.
+- Reusable components.
+- Separation of frontend, backend, and educational content.
+- Clean API architecture.
+- Secure data handling.
+- Environment variables for secrets.
+- Input validation.
+- Error handling.
+- Maintainable code.
+- Scalable content architecture.
+- Avoid unnecessary dependencies.
+- Avoid hardcoded credentials.
+- Document important technical decisions.
+
+Do not introduce unnecessary complexity.
+
+---
+
+# 4\. PROFESSIONAL BRANDING AND COLOURFUL UI/UX DESIGN
+
+This is one of the most important requirements.
+
+CyberNexus must have a unique, attractive, premium, colourful, futuristic cybersecurity identity.
+
+## Default interface
+
+IMPORTANT: The default website must be colourful and light-themed.
+
+Do not make black or dark mode the default.
+
+Suggested colours:
+
+- Electric blue.
+- Cyan.
+- Violet.
+- Purple.
+- Indigo.
+- Teal.
+- Soft white.
+- Light grey.
+- Modern colourful gradients.
+
+Use:
+
+- Premium gradient backgrounds.
+- Beautiful cards.
+- Modern shadows.
+- Elegant glassmorphism.
+- Attractive illustrations.
+- Subtle glowing effects.
+- Stylish badges.
+- Professional icons.
+- Floating decorative elements.
+- Cybersecurity-themed stickers.
+- Modern typography.
+- Consistent spacing.
+
+The design must be futuristic but readable and professional.
+
+## Cybersecurity visual elements
+
+Use high-quality visuals such as:
+
+- Digital networks.
+- Cybersecurity shields.
+- Encryption graphics.
+- Hacker-inspired artwork.
+- Digital circuits.
+- Futuristic computers.
+- Cyber threat illustrations.
+- Network topology visuals.
+- Terminal graphics.
+- Security icons.
+- Technology-inspired background artwork.
+- 3D-style illustrations where appropriate.
+
+Do not use random unrelated stock images.
+
+## Optional themes
+
+Provide:
+
+- Light Mode (default).
+- Dark Mode.
+- System Mode.
+
+Dark mode must be professionally designed and optional.
+
+Remember the user's theme selection.
+
+## Animation
+
+Add lightweight professional animations:
+
+- Page transitions.
+- Hover effects.
+- Animated cards.
+- Progress animations.
+- Terminal typing effects.
+- Background gradient animations.
+- Interactive diagrams.
+- Achievement unlock effects.
+- Loading animations.
+
+Do not overload the website with unnecessary animations.
+
+---
+
+# 5\. COMPLETE RESPONSIVE DESIGN
+
+The entire website must work perfectly on:
+
+- Android smartphones.
+- iPhones.
+- Tablets.
+- Laptops.
+- Desktop computers.
+
+Requirements:
+
+- Mobile-first development.
+- Responsive navigation.
+- Mobile hamburger menu.
+- Responsive cards and grids.
+- Proper typography scaling.
+- Touch-friendly controls.
+- Responsive images.
+- No horizontal overflow.
+- No overlapping components.
+- No broken layouts.
+- Accessible colour contrast.
+- Keyboard navigation.
+
+Every page and feature must be responsive, not just the homepage.
+
+---
+
+# 6\. COMPLETE WEBSITE PAGES
+
+Create all of the following sections:
+
+1. Home.
+2. Dashboard.
+3. Learning Paths.
+4. Courses.
+5. Lessons.
+6. Cyber Labs.
+7. CTF Arena.
+8. Missions.
+9. Red Team.
+10. Blue Team.
+11. SIEM Dashboard.
+12. IDS Learning.
+13. Network Analyzer.
+14. Packet Analyzer.
+15. Digital Forensics.
+16. Threat Intelligence.
+17. Progress Tracking.
+18. Achievements.
+19. Profile.
+20. Settings.
+21. About.
+22. Help and Documentation.
+
+Every navigation item must lead to a meaningful working page.
+
+Do not create empty pages, fake buttons, or decorative controls that do nothing.
+
+---
+
+# 7\. HOMEPAGE DESIGN
+
+Create a visually impressive professional landing page.
+
+Include:
+
+- Professional CyberNexus logo.
+- Modern navigation bar.
+- Attractive hero section.
+- Powerful cybersecurity headline.
+- Short platform description.
+- Start Learning button.
+- Explore Labs button.
+- High-quality cybersecurity hero artwork.
+- Animated terminal or network visual.
+- Platform features.
+- Learning path previews.
+- Featured cyber labs.
+- CTF challenge previews.
+- Red Team vs Blue Team showcase.
+- Achievement preview.
+- Learning progress preview.
+- FAQ.
+- Professional footer.
+
+Use actual platform data for statistics. Never invent user counts or activity numbers.
+
+The homepage must immediately communicate that CyberNexus is a professional cybersecurity platform.
+
+---
+
+# 8\. COMPLETE CYBERSECURITY CURRICULUM — 25 LESSONS PER MODULE
+
+IMPORTANT REQUIREMENT:
+
+Create exactly 25 lessons in every module.
+
+There are 15 modules.
+
+Total curriculum: 375 detailed lessons.
+
+Do not reduce the number of lessons.
+
+Do not generate placeholder lessons.
+
+Do not split the lesson count into a smaller MVP.
+
+All 25 lessons in every module must be planned and included in the curriculum.
+
+Each module must progress logically through:
+
+- Beginner.
+- Elementary.
+- Intermediate.
+- Upper Intermediate.
+- Advanced.
+
+The learner must progress from fundamental knowledge to advanced concepts.
+
+Each module must contain 25 unique lessons, arranged in a meaningful learning sequence.
+
+## MODULE 1 — INTRODUCTION TO CYBERSECURITY
+
+1. Introduction to Cybersecurity.
+2. Importance of Cybersecurity.
+3. History and Evolution of Cybersecurity.
+4. CIA Triad.
+5. Security Principles and Concepts.
+6. Types of Cyber Threats.
+7. Threat Actors and Their Motivations.
+8. Vulnerabilities and Exploits.
+9. Threat, Vulnerability and Risk.
+10. Risk Assessment Fundamentals.
+11. Authentication and Authorization.
+12. Access Control Models.
+13. Security Policies and Procedures.
+14. Malware Fundamentals.
+15. Phishing and Social Engineering.
+16. Password Security.
+17. Network Security Basics.
+18. Web Security Fundamentals.
+19. Endpoint Security.
+20. Cloud Security Introduction.
+21. Security Monitoring Fundamentals.
+22. Incident Response Fundamentals.
+23. Cybersecurity Laws and Ethics.
+24. Cybersecurity Career Paths and Certifications.
+25. Advanced Cybersecurity Concepts and Real-World Case Studies.
+
+## MODULE 2 — NETWORKING FUNDAMENTALS
+
+1. Introduction to Computer Networks.
+2. Network Types: LAN, MAN and WAN.
+3. Network Topologies.
+4. OSI Reference Model.
+5. TCP/IP Model.
+6. Physical and Data Link Layers.
+7. Network Layer Fundamentals.
+8. Transport Layer Fundamentals.
+9. Application Layer Protocols.
+10. IPv4 Addressing.
+11. IPv6 Addressing.
+12. Public and Private IP Addresses.
+13. Subnetting Fundamentals.
+14. MAC Addresses and ARP.
+15. DNS and Domain Resolution.
+16. DHCP and IP Configuration.
+17. TCP Three-Way Handshake.
+18. UDP and TCP Comparison.
+19. Common Network Ports and Protocols.
+20. Routing and Switching.
+21. NAT and Network Address Translation.
+22. Firewalls and Network Filtering.
+23. VPN and Secure Communication.
+24. Network Troubleshooting and Analysis.
+25. Advanced Network Security and Traffic Analysis.
+
+## MODULE 3 — LINUX FOR CYBERSECURITY
+
+1. Introduction to Linux.
+2. Linux Distributions.
+3. Linux Installation and Environment.
+4. Linux Filesystem Structure.
+5. Basic Terminal Commands.
+6. File and Directory Management.
+7. File Permissions.
+8. Users and Groups.
+9. Process Management.
+10. Package Management.
+11. Text Editors.
+12. File Searching and Filtering.
+13. Redirection and Pipes.
+14. Linux Networking Commands.
+15. SSH Fundamentals.
+16. Shell Scripting Basics.
+17. Environment Variables.
+18. System Services.
+19. Logs and Log Analysis.
+20. Cron Jobs and Scheduling.
+21. Linux System Administration.
+22. Linux Security and Hardening.
+23. Firewall Configuration Concepts.
+24. Linux Troubleshooting.
+25. Advanced Linux Security Operations.
+
+## MODULE 4 — WINDOWS SECURITY
+
+1. Introduction to Windows Architecture.
+2. Windows Operating System Fundamentals.
+3. Windows Users and Groups.
+4. NTFS Permissions.
+5. Windows File Systems.
+6. Windows Processes and Services.
+7. Windows Command Prompt.
+8. PowerShell Fundamentals.
+9. Windows Registry.
+10. Windows Event Viewer.
+11. Windows Authentication.
+12. Local Security Policies.
+13. Windows Defender.
+14. Windows Firewall.
+15. Windows Updates and Patch Management.
+16. Windows Network Configuration.
+17. Remote Desktop Security.
+18. Active Directory Fundamentals.
+19. Group Policy Fundamentals.
+20. Windows Security Logs.
+21. Windows System Hardening.
+22. Endpoint Security.
+23. Windows Threat Detection.
+24. Windows Incident Investigation.
+25. Advanced Windows Security Administration.
+
+## MODULE 5 — PROGRAMMING FOR CYBERSECURITY
+
+1. Introduction to Programming.
+2. Python Setup and Fundamentals.
+3. Variables and Data Types.
+4. Operators and Expressions.
+5. Conditional Statements.
+6. Loops.
+7. Functions.
+8. Lists and Tuples.
+9. Dictionaries and Sets.
+10. Strings and Regular Expressions.
+11. File Handling.
+12. Exception Handling.
+13. Modules and Packages.
+14. Object-Oriented Programming.
+15. Working with JSON and CSV.
+16. Python Automation.
+17. Operating System Interaction.
+18. Network Programming Basics.
+19. HTTP Requests and APIs.
+20. Log File Processing.
+21. Hashing with Python.
+22. Security Script Development.
+23. Secure Coding Practices.
+24. Debugging and Testing.
+25. Building a Practical Cybersecurity Automation Project.
+
+## MODULE 6 — WEB SECURITY
+
+1. Introduction to Web Security.
+2. How Websites Work.
+3. HTTP Request and Response.
+4. HTTPS and TLS.
+5. Cookies and Sessions.
+6. Authentication Fundamentals.
+7. Authorization and Access Control.
+8. Input Validation.
+9. SQL Injection Fundamentals.
+10. Cross-Site Scripting.
+11. Cross-Site Request Forgery.
+12. Broken Access Control.
+13. Security Misconfiguration.
+14. File Upload Security.
+15. Path Traversal.
+16. Authentication Vulnerabilities.
+17. Session Management Security.
+18. API Security Fundamentals.
+19. Security Headers.
+20. Content Security Policy.
+21. OWASP Top 10 Overview.
+22. Secure Database Interaction.
+23. Web Application Security Testing.
+24. Secure Web Development.
+25. Advanced Web Security Assessment and Remediation.
+
+## MODULE 7 — CRYPTOGRAPHY
+
+1. Introduction to Cryptography.
+2. History of Cryptography.
+3. Plaintext and Ciphertext.
+4. Classical Encryption Techniques.
+5. Symmetric Encryption.
+6. Asymmetric Encryption.
+7. AES Fundamentals.
+8. RSA Fundamentals.
+9. Hash Functions.
+10. SHA Family.
+11. Password Hashing.
+12. Salting and Key Stretching.
+13. Digital Signatures.
+14. Public Key Infrastructure.
+15. Digital Certificates.
+16. Key Exchange.
+17. Diffie-Hellman.
+18. TLS and Secure Communication.
+19. Cryptographic Keys and Key Management.
+20. Random Number Generation.
+21. Cryptographic Attacks.
+22. Common Cryptographic Mistakes.
+23. Applied Cryptography with Python.
+24. Secure Cryptographic Design.
+25. Advanced Cryptographic Applications and Case Studies.
+
+## MODULE 8 — ETHICAL HACKING FUNDAMENTALS
+
+1. Introduction to Ethical Hacking.
+2. Ethical Hacking Methodology.
+3. Legal Authorization and Scope.
+4. Rules of Engagement.
+5. Reconnaissance Fundamentals.
+6. Passive Information Gathering.
+7. Active Information Gathering in Authorized Labs.
+8. Attack Surface Identification.
+9. Enumeration Concepts.
+10. Service Identification.
+11. Vulnerability Identification.
+12. Vulnerability Assessment.
+13. Security Testing Methodology.
+14. Web Security Assessment.
+15. Network Security Assessment.
+16. Authentication Testing.
+17. Authorization Testing.
+18. Password Security Assessment.
+19. Security Configuration Review.
+20. Common Testing Tools.
+21. Evidence Collection.
+22. Security Findings Classification.
+23. Vulnerability Reporting.
+24. Responsible Disclosure.
+25. Complete Authorized Security Assessment Workflow.
+
+## MODULE 9 — VULNERABILITY ASSESSMENT
+
+1. Introduction to Vulnerability Assessment.
+2. Vulnerability Lifecycle.
+3. Common Vulnerabilities and Exposures.
+4. CVSS Scoring.
+5. Vulnerability Classification.
+6. Asset Discovery.
+7. Attack Surface Mapping.
+8. Vulnerability Scanning Concepts.
+9. Authenticated and Unauthenticated Scanning.
+10. False Positives and False Negatives.
+11. Vulnerability Validation.
+12. Configuration Assessment.
+13. Network Vulnerability Assessment.
+14. Web Application Assessment.
+15. Operating System Assessment.
+16. Dependency Vulnerabilities.
+17. Software Patch Management.
+18. Risk-Based Prioritization.
+19. Remediation Strategies.
+20. Security Baselines.
+21. Vulnerability Reporting.
+22. Continuous Vulnerability Management.
+23. Vulnerability Management Tools.
+24. Practical Vulnerability Assessment.
+25. Advanced Vulnerability Management and Reporting.
+
+## MODULE 10 — NETWORK SECURITY
+
+1. Introduction to Network Security.
+2. Network Security Principles.
+3. Network Threats.
+4. Firewall Fundamentals.
+5. Stateful and Stateless Firewalls.
+6. Network Access Control.
+7. IDS Fundamentals.
+8. IPS Fundamentals.
+9. Network Segmentation.
+10. VLAN Security.
+11. Wireless Network Security.
+12. Wi-Fi Security Protocols.
+13. Secure Network Protocols.
+14. VPN Architecture.
+15. Network Monitoring.
+16. Traffic Analysis.
+17. ARP and DNS Security.
+18. DDoS Fundamentals and Defense.
+19. Network Hardening.
+20. Secure Network Architecture.
+21. Zero Trust Networking.
+22. Network Threat Detection.
+23. Network Incident Response.
+24. Network Security Auditing.
+25. Advanced Network Defense Architecture.
+
+## MODULE 11 — DIGITAL FORENSICS
+
+1. Introduction to Digital Forensics.
+2. Digital Evidence.
+3. Evidence Preservation.
+4. Chain of Custody.
+5. Forensic Investigation Process.
+6. File System Fundamentals.
+7. File Metadata Analysis.
+8. File Hashing.
+9. Disk Imaging Concepts.
+10. File Recovery Fundamentals.
+11. Deleted File Analysis.
+12. Operating System Artifacts.
+13. Browser Forensics.
+14. Email Forensics.
+15. Log Forensics.
+16. Network Forensics.
+17. Packet Capture Analysis.
+18. Memory Forensics Fundamentals.
+19. Timeline Analysis.
+20. Malware Evidence Analysis.
+21. Digital Investigation Tools.
+22. Forensic Reporting.
+23. Evidence Integrity.
+24. Practical Forensic Investigation.
+25. Advanced Digital Forensics Case Study.
+
+## MODULE 12 — SECURITY OPERATIONS AND INCIDENT RESPONSE
+
+1. Introduction to Security Operations.
+2. Security Operations Center Fundamentals.
+3. SOC Roles and Responsibilities.
+4. Security Monitoring.
+5. Log Management.
+6. Log Collection and Normalization.
+7. SIEM Fundamentals.
+8. SIEM Architecture.
+9. Security Event Correlation.
+10. Alert Triage.
+11. Alert Severity and Prioritization.
+12. Threat Detection.
+13. Incident Classification.
+14. Incident Response Lifecycle.
+15. Incident Preparation.
+16. Detection and Analysis.
+17. Containment Strategies.
+18. Eradication and Recovery.
+19. Post-Incident Activities.
+20. Security Playbooks.
+21. Threat Hunting Fundamentals.
+22. Indicators of Compromise.
+23. Security Reporting.
+24. Practical SOC Investigation.
+25. Advanced Incident Response Scenario.
+
+## MODULE 13 — CLOUD SECURITY
+
+1. Introduction to Cloud Computing.
+2. Cloud Service Models.
+3. Cloud Deployment Models.
+4. Shared Responsibility Model.
+5. Cloud Security Architecture.
+6. Identity and Access Management.
+7. Cloud Authentication.
+8. Cloud Authorization.
+9. Cloud Storage Security.
+10. Cloud Network Security.
+11. Cloud Encryption.
+12. Cloud Key Management.
+13. Cloud Logging.
+14. Cloud Monitoring.
+15. Cloud Misconfigurations.
+16. Cloud Vulnerability Management.
+17. Container Security.
+18. Docker Security.
+19. Kubernetes Security Fundamentals.
+20. Serverless Security.
+21. Cloud Compliance.
+22. Cloud Incident Response.
+23. Cloud Security Tools.
+24. Secure Cloud Architecture.
+25. Advanced Cloud Security Case Study.
+
+## MODULE 14 — MALWARE ANALYSIS FUNDAMENTALS
+
+1. Introduction to Malware.
+2. Malware Categories.
+3. Viruses and Worms.
+4. Trojans and Ransomware.
+5. Spyware and Adware.
+6. Malware Delivery Methods.
+7. Malware Infection Lifecycle.
+8. Malware Indicators.
+9. Static Analysis Fundamentals.
+10. Dynamic Analysis Fundamentals.
+11. File Hash Analysis.
+12. Strings Analysis.
+13. File Format Fundamentals.
+14. Sandbox Concepts.
+15. Process Behavior Analysis.
+16. Network Behavior Analysis.
+17. Persistence Concepts for Defensive Detection.
+18. Malware Detection.
+19. Antivirus and Endpoint Protection.
+20. YARA Rule Fundamentals.
+21. Indicators of Compromise.
+22. Malware Incident Response.
+23. Safe Malware Analysis Environments.
+24. Practical Benign Sample Analysis.
+25. Advanced Malware Investigation Case Study.
+
+All exercises must use harmless simulations or safe educational samples.
+
+## MODULE 15 — ADVANCED SECURITY CONCEPTS
+
+1. Introduction to Advanced Cybersecurity.
+2. Threat Intelligence Fundamentals.
+3. Threat Intelligence Lifecycle.
+4. MITRE ATT\&CK Framework.
+5. Attack Techniques and Defensive Mapping.
+6. Threat Modeling.
+7. STRIDE Methodology.
+8. Zero Trust Architecture.
+9. Security Architecture Principles.
+10. Endpoint Detection and Response.
+11. Extended Detection and Response.
+12. Security Automation.
+13. Security Orchestration Concepts.
+14. Advanced SIEM Concepts.
+15. Threat Hunting.
+16. Advanced Network Detection.
+17. Application Security Architecture.
+18. Cloud Security Architecture.
+19. Supply Chain Security.
+20. Identity Security.
+21. Security Engineering.
+22. Adversary Emulation in Controlled Environments.
+23. Advanced Defensive Investigation.
+24. Security Architecture Assessment.
+25. Complete Advanced Cybersecurity Capstone Project.
+
+---
+
+# 9\. LESSON QUALITY REQUIREMENTS
+
+Every one of the 375 lessons must have genuine educational content.
+
+Do not treat the 25 lessons as just titles or empty placeholders.
+
+For each lesson include:
+
+1. Unique lesson title.
+2. Lesson ID.
+3. Difficulty level.
+4. Learning objectives.
+5. Introduction.
+6. Detailed explanation.
+7. Key concepts.
+8. Real-world examples.
+9. Practical examples.
+10. Diagrams or visual explanations where useful.
+11. Common mistakes.
+12. Security best practices.
+13. Summary.
+14. Key takeaways.
+15. Knowledge-check questions.
+16. Practical exercise.
+17. Assessment or quiz.
+
+For major concepts, provide detailed textbook-quality explanations, aiming for approximately 1500–3000 words where appropriate.
+
+The content must be accurate, meaningful, understandable, and technically detailed.
+
+Do not artificially increase word count.
+
+Do not repeat the same explanations across different lessons.
+
+Use progressive teaching:
+
+- Beginner lessons explain concepts from zero.
+- Intermediate lessons connect concepts and demonstrate practical applications.
+- Advanced lessons cover deeper technical details, analysis, security design, and realistic case studies.
+
+The lesson interface must clearly show:
+
+- Lesson number.
+- Lesson title.
+- Difficulty.
+- Estimated reading time.
+- Completion status.
+- Previous lesson.
+- Next lesson.
+- Related practical exercise.
+
+Display all 25 lessons for each module in a well-organized curriculum interface.
+
+---
+
+# 10\. INTERACTIVE VISUAL LEARNING
+
+Provide interactive diagrams and simulations for:
+
+- OSI model.
+- TCP/IP model.
+- TCP handshake.
+- DNS resolution.
+- HTTP request flow.
+- Authentication.
+- Encryption and decryption.
+- Firewall operation.
+- IDS detection.
+- Network topology.
+- Incident response lifecycle.
+- Attack and defense workflows.
+
+Include step-by-step explanations, labels, tooltips, highlighting, and replay functionality where appropriate.
+
+Use actual interactive diagrams instead of decorative images whenever interaction adds educational value.
+
+---
+
+# 11\. PRACTICAL CYBER LABS
+
+Build a dedicated Cyber Labs platform.
+
+Categories:
+
+- Linux.
+- Networking.
+- Web Security.
+- Cryptography.
+- Ethical Hacking.
+- Vulnerability Assessment.
+- Log Analysis.
+- Network Defense.
+- Digital Forensics.
+- Incident Response.
+
+Difficulty:
+
+- Beginner.
+- Intermediate.
+- Advanced.
+
+Each lab must include:
+
+- Introduction.
+- Learning objectives.
+- Scenario.
+- Requirements.
+- Instructions.
+- Practical task.
+- Hints.
+- Expected output.
+- Validation.
+- Explanation.
+- Completion status.
+
+Use isolated Docker environments where supported.
+
+Apply resource limits and restricted networking.
+
+If Docker is unavailable, provide browser-based simulations or guided exercises.
+
+Never expose intentionally vulnerable environments to public networks.
+
+---
+
+# 12\. CTF ARENA
+
+Create a complete CTF learning environment.
+
+Categories:
+
+- General Knowledge.
+- Linux.
+- Networking.
+- Web Security.
+- Cryptography.
+- Digital Forensics.
+- Log Analysis.
+- Security Fundamentals.
+
+Features:
+
+- Challenge descriptions.
+- Difficulty levels.
+- Hints.
+- Points.
+- Flag submission.
+- Answer validation.
+- Completion tracking.
+- Challenge history.
+- Leaderboard when meaningful data exists.
+- Explanations after solving.
+
+Create original challenges with educational value.
+
+---
+
+# 13\. RED TEAM AND BLUE TEAM
+
+## Red Team
+
+Include:
+
+- Reconnaissance concepts.
+- Enumeration.
+- Attack surface analysis.
+- Vulnerability identification.
+- Authorized security testing.
+- Reporting.
+
+All practical exercises must use controlled environments.
+
+## Blue Team
+
+Include:
+
+- Log monitoring.
+- Threat detection.
+- Alert investigation.
+- Incident response.
+- Network defense.
+- Endpoint security.
+- Threat hunting.
+- Security hardening.
+
+Create guided scenarios that explain both attacker behavior and defensive response.
+
+---
+
+# 14\. CYBERSECURITY MISSIONS AND STORY MODE
+
+Create realistic educational missions.
+
+Examples:
+
+- Investigate suspicious login activity.
+- Analyze a phishing email.
+- Detect unusual network traffic.
+- Investigate a compromised endpoint.
+- Analyze malicious indicators in sample logs.
+- Investigate a simulated data breach.
+- Respond to a simulated ransomware incident.
+
+Every mission must include:
+
+- Story.
+- Scenario.
+- Objectives.
+- Evidence.
+- Tasks.
+- Hints.
+- Validation.
+- Explanation.
+- XP rewards.
+- Completion status.
+
+Support beginner, intermediate, and advanced missions.
+
+---
+
+# 15\. SIEM AND IDS LEARNING DASHBOARD
+
+Create a professional educational SIEM/IDS environment.
+
+Features:
+
+- Log viewer.
+- Event filtering.
+- Search.
+- Severity classification.
+- Security alert cards.
+- Timeline view.
+- Basic event correlation.
+- Rule-based detection.
+- IDS demonstrations.
+- Incident investigation.
+- Sample datasets.
+
+Start with working local simulations.
+
+Keep the architecture extensible for future ELK and Suricata integration.
+
+Clearly distinguish simulated data from real-time detection.
+
+---
+
+# 16\. NETWORK AND PACKET ANALYZER
+
+Provide educational tools for:
+
+- Network topology visualization.
+- Packet structure.
+- TCP analysis.
+- UDP analysis.
+- DNS analysis.
+- HTTP analysis.
+- Protocol identification.
+- PCAP learning workflow.
+- Packet filtering demonstrations.
+- Traffic visualization.
+
+Use safe sample PCAP files or user-provided files.
+
+Explain packet fields and network behavior.
+
+Never capture traffic without authorization.
+
+---
+
+# 17\. DIGITAL FORENSICS AND THREAT INTELLIGENCE
+
+Include:
+
+- File metadata investigation.
+- Hash calculation.
+- Log timeline analysis.
+- Evidence handling.
+- Indicators of compromise.
+- Threat intelligence concepts.
+- IOC investigation exercises.
+- Incident reporting.
+
+Use safe sample data.
+
+---
+
+# 18\. PROGRESS TRACKING AND GAMIFICATION
+
+Implement:
+
+- Completed lessons.
+- Completed modules.
+- Lab completion.
+- CTF completion.
+- XP.
+- Levels.
+- Achievement badges.
+- Learning streaks.
+- Progress bars.
+- Skill categories.
+- Learning history.
+
+Use local-first progress storage for Version 1.
+
+Allow users to export and import their learning progress.
+
+Do not require login or registration in the initial version.
+
+Make the progress architecture extensible for optional account synchronization in the future.
+
+---
+
+# 19\. SEARCH AND USER EXPERIENCE
+
+Implement:
+
+- Global search.
+- Lesson search.
+- Module filtering.
+- Difficulty filtering.
+- Lab search.
+- CTF search.
+- Breadcrumbs.
+- Helpful tooltips.
+- Loading states.
+- Empty states.
+- Error messages.
+- Confirmation messages.
+- Accessible forms.
+- Keyboard navigation.
+
+Every control must work.
+
+---
+
+# 20\. SECURITY AND SAFE LEARNING
+
+CyberNexus is a legal and authorized educational platform.
+
+Requirements:
+
+- No unauthorized scanning.
+- No attacks against public targets.
+- No real-world credential theft.
+- No harmful malware deployment.
+- No uncontrolled exploit execution.
+- No public exposure of vulnerable lab containers.
+- Isolated environments.
+- Resource limits.
+- Input validation.
+- Secure APIs.
+- Minimal collection of sensitive user data.
+
+Teach offensive security concepts only within safe, authorized environments.
+
+---
+
+# 21\. FUTURE VERSION 2 FEATURES
+
+Do not implement these features in Version 1.
+
+Keep the architecture ready for future integration.
+
+## AI Cybersecurity Assistant
+
+Future capabilities:
+
+- Explain cybersecurity concepts.
+- Answer lesson questions.
+- Give lab hints.
+- Explain CTF challenges.
+- Recommend learning paths.
+- Assist with defensive log analysis.
+- Provide contextual learning support.
+
+Keep the AI integration modular.
+
+Do not use paid AI APIs in Version 1.
+
+## Multilingual Support
+
+Future languages:
+
+- English.
+- Kannada.
+- Hindi.
+
+Version 1 must be completely in English.
+
+Do not implement translation systems or multilingual UI now.
+
+Use a content structure that makes future translation easy.
+
+## Additional Future Features
+
+- AI-powered adaptive learning.
+- Advanced interactive simulations.
+- Advanced SIEM integrations.
+- Cloud progress synchronization.
+- Additional practical environments.
+
+Maintain a future roadmap.
+
+---
+
+# 22\. PERFORMANCE AND ACCESSIBILITY
+
+Ensure:
+
+- Fast loading.
+- Optimized images.
+- Lazy loading.
+- Code splitting where appropriate.
+- Lightweight animations.
+- Efficient rendering.
+- Responsive assets.
+- Accessible contrast.
+- Keyboard support.
+- Semantic HTML.
+- Proper error handling.
+
+---
+
+# 23\. TESTING AND QUALITY ASSURANCE
+
+Test the entire platform:
+
+- Homepage.
+- Navigation.
+- All pages.
+- Mobile layouts.
+- Desktop layouts.
+- Theme switching.
+- Lessons.
+- Lesson navigation.
+- Search.
+- Quizzes.
+- Labs.
+- CTF submissions.
+- Missions.
+- Progress tracking.
+- Export/import.
+- APIs.
+- Security controls.
+- Error handling.
+
+Fix all broken links, fake buttons, runtime errors, console errors, and layout problems.
+
+Do not claim features are complete unless they have been implemented and tested.
+
+---
+
+# 24\. DOCUMENTATION
+
+Provide:
+
+- README.md.
+- Installation instructions.
+- Development setup.
+- Environment variable documentation.
+- Project structure.
+- API documentation.
+- Database documentation where applicable.
+- Lab setup guide.
+- Security documentation.
+- Deployment instructions.
+- Future roadmap.
+
+---
+
+# 25\. DEVELOPMENT QUALITY REQUIREMENTS
+
+1. Build a complete and maintainable application.
+2. Do not reduce the 25-lesson requirement per module.
+3. All 15 modules must have 25 lessons each.
+4. The total curriculum must contain 375 lessons.
+5. All lessons must progress from beginner to advanced.
+6. Never use placeholder lessons as completed content.
+7. Do not repeat content unnecessarily.
+8. Do not create fake functionality.
+9. Use reusable components.
+10. Keep code organized.
+11. Prioritize visual quality.
+12. Prioritize educational accuracy.
+13. Prioritize application security.
+14. Use free tools and libraries.
+15. Document technical decisions.
+16. Test the implementation.
+17. Keep track of completed and pending requirements.
+18. Do not silently skip features.
+19. If a real integration is unavailable, provide a safe working educational simulation and clearly label it.
+20. Do not sacrifice required features simply to finish faster.
+
+---
+
+# 26\. FINAL ACCEPTANCE CRITERIA
+
+CyberNexus Version 1 must deliver:
+
+- A complete professional colourful website.
+- Fully responsive design.
+- Light theme by default.
+- Optional Dark and System themes.
+- 15 cybersecurity learning modules.
+- Exactly 25 lessons per module.
+- 375 planned and genuinely developed lessons.
+- Beginner-to-advanced learning progression.
+- Detailed educational explanations.
+- Interactive diagrams.
+- Practical cyber labs.
+- CTF Arena.
+- Red Team and Blue Team.
+- Cybersecurity missions.
+- SIEM and IDS learning.
+- Network and packet analysis.
+- Digital forensics.
+- Threat intelligence.
+- Progress tracking.
+- XP and achievements.
+- Local-first learning progress.
+- Export/import functionality.
+- Safe cybersecurity environments.
+- Complete documentation.
+
+AI Assistant and multilingual support are reserved for Version 2.
+
+The finished website must feel like a premium international cybersecurity learning platform.
+
+---
+
+# 27\. START BUILDING
+
+Begin by understanding the complete requirements.
+
+First establish the architecture, folder structure, design system, curriculum data model, and implementation plan.
+
+Then proceed with the complete application.
+
+Do not stop after producing a plan or a basic homepage.
+
+Continue implementation until the requested Version 1 features are complete, tested, and documented.
+
+Do not silently reduce the scope.
+
+If development requires multiple working sessions, maintain a clear project checklist and progress document so work can continue without repeating completed tasks.
+
+**Your final objective is to deliver a complete, professional, colourful, responsive, beginner-to-advanced cybersecurity learning and practical training platform named CYBERNEXUS.**

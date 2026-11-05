@@ -1,0 +1,8 @@
+{
+  "name": "CyberNexus — Cybersecurity Learning & Practical Training Platform",
+  "description": "Explore. Learn. Defend. Master Cybersecurity. Comprehensive 15-module curriculum with 375 detailed lessons, interactive diagrams, cyber labs, CTF arena, Red & Blue team modules, SIEM dashboard, packet analyzer, and missions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
