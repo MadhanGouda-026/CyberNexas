@@ -23,6 +23,37 @@ const isProduction = process.env.NODE_ENV === 'production';
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// CORS: configure FRONTEND_URL on Render with your exact Vercel origin.
+// Multiple origins may be comma-separated. Local Vite origins are allowed only in development.
+const configuredFrontendOrigins = (process.env.FRONTEND_URL || '')
+  .split(',')
+  .map(origin => origin.trim())
+  .filter(Boolean);
+
+const allowedOrigins = new Set([
+  ...configuredFrontendOrigins,
+  ...(process.env.NODE_ENV !== 'production'
+    ? ['http://localhost:5173', 'http://127.0.0.1:5173']
+    : [])
+]);
+
+app.use((req: Request, res: Response, next) => {
+  const origin = req.headers.origin;
+
+  if (origin && allowedOrigins.has(origin)) {
+    res.setHeader('Access-Control-Allow-Origin', origin);
+    res.setHeader('Vary', 'Origin');
+    res.setHeader('Access-Control-Allow-Methods', 'GET,POST,PUT,PATCH,DELETE,OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  }
+
+  if (req.method === 'OPTIONS') {
+    return res.sendStatus(origin && allowedOrigins.has(origin) ? 204 : 403);
+  }
+
+  next();
+});
+
 // In-memory SIEM logs storage on backend
 let backendSiemLogs = [...INITIAL_SIEM_LOGS];
 
@@ -309,24 +340,25 @@ app.get('/api/download/full-code-zip', (req: Request, res: Response) => {
 // ==========================================
 // VITE MIDDLEWARE (DEV) OR STATIC ASSETS (PROD)
 // ==========================================
+// ==========================================
+// VITE MIDDLEWARE (LOCAL DEVELOPMENT ONLY)
+// Production on Render runs API routes only.
+// React frontend is deployed separately on Vercel.
+// ==========================================
 async function startServer() {
   if (!isProduction) {
     const { createServer: createViteServer } = await import('vite');
+
     const vite = await createViteServer({
       server: { middlewareMode: true },
       appType: 'spa'
     });
+
     app.use(vite.middlewares);
-  } else {
-    const distPath = path.join(__dirname, 'dist');
-    app.use(express.static(distPath));
-    app.get('*', (req: Request, res: Response) => {
-      res.sendFile(path.join(distPath, 'index.html'));
-    });
   }
 
-  app.listen(PORT, () => {
-    console.log(`[CyberNexus] Server running on http://0.0.0.0:${PORT} (Node.js + Express backend active)`);
+  app.listen(Number(PORT), '0.0.0.0', () => {
+    console.log(`[CyberNexus API] Backend running on port ${PORT}`);
   });
 }
 
