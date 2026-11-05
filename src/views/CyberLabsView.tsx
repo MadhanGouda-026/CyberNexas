@@ -23,6 +23,9 @@ import { Lab, DockerEngineStatus, DockerSessionInfo } from '../types';
 import { useProgress } from '../context/ProgressContext';
 import { InteractiveTerminal } from '../components/Terminal/InteractiveTerminal';
 
+// Render API base URL (set VITE_API_URL in Vercel Environment Variables).
+const API_BASE = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
+
 export const CyberLabsView: React.FC = () => {
   const { progress, completeLab, unlockAchievement } = useProgress();
   const [selectedLabId, setSelectedLabId] = useState<string>(LABS[0].id);
@@ -53,7 +56,7 @@ export const CyberLabsView: React.FC = () => {
   const refreshDockerStatus = async () => {
     setIsCheckingDocker(true);
     try {
-      const res = await fetch('/api/docker/status');
+      const res = await fetch(`${API_BASE}/api/docker/status`);
       const data = await res.json();
       setDockerStatus(data);
     } catch {
@@ -70,7 +73,7 @@ export const CyberLabsView: React.FC = () => {
   useEffect(() => {
     refreshDockerStatus();
 
-    fetch(`/api/docker/session/${selectedLabId}`)
+    fetch(`${API_BASE}/api/docker/session/${selectedLabId}`)
       .then(res => res.json())
       .then(data => {
         if (data.active) {
@@ -109,7 +112,7 @@ export const CyberLabsView: React.FC = () => {
     setLaunchError(null);
     setIsStarting(true);
     try {
-      const res = await fetch('/api/docker/launch', {
+      const res = await fetch(`${API_BASE}/api/docker/launch`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ labId: activeLab.id })
@@ -135,7 +138,7 @@ export const CyberLabsView: React.FC = () => {
   const handleStopLab = async () => {
     setIsStopping(true);
     try {
-      await fetch('/api/docker/stop', {
+      await fetch(`${API_BASE}/api/docker/stop`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ labId: activeLab.id })
@@ -156,7 +159,7 @@ export const CyberLabsView: React.FC = () => {
       throw new Error('Docker container is not running. Click "Launch Lab" first.');
     }
 
-    const res = await fetch('/api/docker/exec', {
+    const res = await fetch(`${API_BASE}/api/docker/exec`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
